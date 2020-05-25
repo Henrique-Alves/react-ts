@@ -1,13 +1,13 @@
-main{
+main {
     min-height: 40vh;
     padding: 4rem 3rem 3rem 3rem;
     transition: padding-left 0.4s ease-in-out;
 
-    &.shrink{
-       padding-left: calc(#{12rem + 1rem});
+    &.shrink {
+       padding-left: calc(#{$navOpen + 1rem});
     }
 
-    &.expand{
-        padding-left: calc(#{5rem + 1rem});
+    &.expand {
+        padding-left: calc(#{$navClose + 1rem});
     }
 }

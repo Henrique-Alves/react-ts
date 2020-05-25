@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from './pages/Home';
+import Dash from './pages/Dash';
 import Sobre from './pages/Sobre';
 import MainLayout from './shared/layouts/main';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <MainLayout>
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/" component={Dash} />
           <Route path="/Sobre" component={Sobre} />
         </Switch>
       </MainLayout>

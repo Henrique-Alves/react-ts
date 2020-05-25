@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Home: React.FC = () => {
+const Dash: React.FC = () => {
     return (
         <h1>
             <span>Home</span>
@@ -8,4 +8,4 @@ const Home: React.FC = () => {
     );
 }
 
-export default Home;
+export default Dash;
